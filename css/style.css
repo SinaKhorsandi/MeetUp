@@ -9846,3 +9846,38 @@ color: #000;
 .pagination{
   margin-top: 50px;
 }
+
+
+
+
+
+/* Organize */
+
+	.img-organizer{
+
+		border-radius: 20px;
+		padding: 50px;
+		filter: brightness(0.80);
+		
+			}
+		.btn-organizer{
+			background-color: #fbb901;
+			width: 25%;
+			margin: 10px auto;
+      margin-top: 100px;
+			 padding: 10px;
+			  font-size: 16px;
+			  font-weight: bold;
+			  border-radius: 5px;
+
+		}
+		.btn-organizer:hover{
+			background-color: #f3d06ff6;
+
+		}
+		.btn-organizer a{
+			
+			color: #000;
+		}
+			
+	
