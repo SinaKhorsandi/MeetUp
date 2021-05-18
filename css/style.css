@@ -9879,5 +9879,41 @@ color: #000;
 			
 			color: #000;
 		}
-			
+
+
+
+
+
+
+
+    /* Supporters*/
+    .staffMar{
+      margin: 30px 0;
+    }
+  
 	
+
+
+    /* Files */
+    .table{
+      margin-bottom: 40px;
+    }
+    table .thead{
+      background-color: #fbb901;
+      color: rgba(0, 0, 0, 0.897);
+    }	
+    td a{
+      color: rgba(0, 0, 0, 0.801);
+    }	
+    td a:hover{
+      color: #fbb901;
+    }	
+    
+    .table i{
+      color: #46433c91;
+    
+    }
+    .table i:hover{
+      color: #fbb901;
+    
+    }
