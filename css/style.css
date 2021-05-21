@@ -9775,6 +9775,11 @@ font-weight: bold;
 }
     
 /* Blog */
+@media  screen and (max-width: 600px) {
+  #mobRes {
+	  display: none !important;
+  }
+}
 .blog-entry {
   border: 1px solid rgb(240 240 240 / 11%);
   border-radius: 10px;
@@ -9831,9 +9836,6 @@ color: #000;
 
 
 
-
-
-
   /* RefreeCommittee */
   .figure{
     margin: 15px 10px;
@@ -9846,8 +9848,6 @@ color: #000;
 .pagination{
   margin-top: 50px;
 }
-
-
 
 
 
@@ -9881,43 +9881,33 @@ color: #000;
 		}
 
 
-
-
-
-
-
     /* Supporters*/
     .staffMar{
       margin: 30px 0;
     }
-  
-	
 
-
-    /* Files */
-    .table{
-      margin-bottom: 40px;
-    }
-    table .thead{
+    /* singleFiles */
+    .fileName{
+      color: black;
+      font-weight: 600;
+      margin: 5px;
+  }
+  .fileAnswer{
+      color: #202020;
+      font-weight: 400;
+      margin: 5px;
+  }
+  .singleFileBtn{
+      margin: 25px auto;
       background-color: #fbb901;
-      color: rgba(0, 0, 0, 0.897);
-    }	
-    td a{
-      color: rgba(0, 0, 0, 0.801);
-    }	
-    td a:hover{
-      color: #fbb901;
-    }	
-    
-    .table i{
-      color: #46433c91;
-    
-    }
-    .table i:hover{
-      color: #fbb901;
-    
-    }
-
+  }
+  .singleFileBtn a{
+    color: #000;
+  }
+  .singleFileBtn:hover{
+      margin-top: 25px;
+      background-color: #f3d480;
+  }
 
 
 
@@ -9939,3 +9929,304 @@ color: #000;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
+
+/* EditArticle */
+.figureSection{
+	text-align: center;
+	margin: 20px auto;
+}
+.figure-caption{
+	font-size: 14px;
+}
+.figure-caption:hover{
+color: #fbb901;
+}
+	.figure{
+		margin: 5px 18px;
+  }
+  
+
+
+/* scientificCommittee */
+.table{
+	margin-bottom: 40px;
+    text-align: center;
+}
+table .thead{
+	background-color: #033fff;
+	color: rgba(0, 0, 0, 0.897);
+}	
+td a{
+	color: rgba(0, 0, 0, 0.801);
+}	
+td a:hover{
+	color: #fbb901;
+}	
+
+.table i{
+	color: #46433c91;
+
+}
+.table i:hover{
+	color: #fbb901;
+
+}
+
+
+
+/* signup */
+
+@media  screen and (max-width: 767.78px) {
+  #signupMobRes {
+	  display: none !important;
+  }
+}
+
+
+#first-card{
+  width: 38%; 
+  display: inline;
+  float: right;
+  margin: 0 5px;
+}
+#second-card{
+  max-width: 58%;
+  display: inline;
+   float: left;
+   margin: 0 5px;
+}
+.card-body{
+    background-color: #fff;
+}
+#first-card-body{
+    margin-bottom: 14px;
+}
+.card-header{
+    background-color: #033fff;
+    color: #fff;
+}
+.card-title{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 15px;
+}
+.signup-icon{
+    color:#033efc;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.signup-link{
+    font-size: 13px;
+    color: #000000bf;
+}
+.signup-link:hover{
+    color: #fbb901;
+}
+.btn-signup{
+    color: #fff;
+    background-color:#033efc ;
+}
+
+.btn-signup:hover{
+    background-color:#fbb901 ;
+}
+form label{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+form p{
+    font-size: 11px;
+    font-weight: bold;
+    color: #033efc;
+    margin-top: 50px;
+}
+#req{
+    color: #033efc;
+
+}
+
+@media  screen and (max-width: 525.78px)  {
+  
+#first-card{
+  width: 100%; 
+  display: block;
+  float: right;
+  margin-bottom: 20px;
+}
+#second-card{
+  max-width: 100%;
+  display: block;
+   float: right;
+   
+}
+
+ #first-card-body{
+    margin-bottom:25px;
+}
+
+.card-title{
+    font-size: 15px;
+}
+.card-text{
+    font-size: 13px;
+}
+.signup-icon{
+    font-size: 11px;
+}
+.signup-link{
+    font-size: 12px;
+}
+
+.btn-signup{
+   font-size: 13px;
+}
+
+
+form label{
+    font-size: 12px;
+}
+form p{
+    font-size: 9px;
+} 
+
+}
+
+@media  screen and (min-width: 525.78px) and (max-width: 767.78px) {
+  #first-card{
+  width: 45%; 
+ 
+}
+#second-card{
+  max-width: 50%;
+}
+
+ #first-card-body{
+    margin-bottom:25px;
+}
+
+.card-title{
+    font-size: 15px;
+}
+.card-text{
+    font-size: 13px;
+}
+.signup-icon{
+    font-size: 11px;
+}
+.signup-link{
+    font-size: 12px;
+}
+
+.btn-signup{
+   font-size: 13px;
+}
+
+
+form label{
+    font-size: 12px;
+}
+form p{
+    font-size: 9px;
+} 
+
+}
+
+
+
+@media  screen and (min-width: 768px) and (max-width: 991.78px) {
+  #first-card{
+  width: 45%; 
+ 
+}
+#second-card{
+  max-width: 50%;
+}
+
+ #first-card-body{
+    margin-bottom:46px;
+}
+
+.card-title{
+    font-size: 15px;
+}
+.card-text{
+    font-size: 13px;
+}
+.signup-icon{
+    font-size: 11px;
+}
+.signup-link{
+    font-size: 12px;
+}
+
+.btn-signup{
+   font-size: 13px;
+   margin-bottom: 25px;
+}
+
+
+ 
+
+form label{
+    font-size: 12px;
+}
+form p{
+    font-size: 9px;
+} 
+
+}
+
+
+
+
+/* RefLogin */
+
+
+#userLogin-card-body{
+  margin-bottom: 37px;
+}
+
+#forgetPass{
+  margin-top: 10px;
+}
+#passExample{
+  color: #033efc;
+}
+
+
+
+
+
+/* userLogin */
+
+@media  screen and (min-width: 526px) and (max-width: 991.78px) {
+
+  .btn-login{
+   font-size: 13px;
+   margin-bottom: 47px;
+  }
+  
+  }
+.btn-login{
+  color: #fff;
+  background-color:#033efc ;
+}
+.btn-loginS{
+  color: #fff;
+  background-color:#033efc ;
+}
+
+.btn-login:hover{
+  background-color:#fbb901 ;
+}
+.btn-loginS:hover{
+  background-color:#fbb901 ;
+}
+
+
