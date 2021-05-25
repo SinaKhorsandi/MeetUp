@@ -10337,7 +10337,9 @@ form p{
   font-weight: bold;
   margin-right: -5px;
 }
-
+.block-23 ul {
+  padding: 0;
+}
 @media (min-width: 768px){
 .col-md {
   text-align: center;
