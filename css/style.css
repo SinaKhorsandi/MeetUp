@@ -8790,7 +8790,7 @@ h1, h2, h3, h4, h5,
   transform: translateY(-50%);
   color: rgba(255, 255, 255, 0.8); }
 
-.ftco-speakers {
+.ftco-organizers {
   background: #060708; }
 
 .staff {
@@ -8954,7 +8954,7 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 0;
     border-radius: 0; }
 
-.speaker-wrap {
+.organizer-wrap {
   width: 100%;
   background: #fff;
   padding: 40px;
@@ -8964,36 +8964,36 @@ h1, h2, h3, h4, h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease; }
-  .speaker-wrap .speaker-img {
+  .organizer-wrap .organizer-img {
     width: 120px;
     height: 120px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
-  .speaker-wrap .text {
+  .organizer-wrap .text {
     width: calc(100% - 120px); }
-    .speaker-wrap .text h2 {
+    .organizer-wrap .text h2 {
       font-size: 24px;
       font-weight: 700; }
-      .speaker-wrap .text h2 a {
+      .organizer-wrap .text h2 a {
         color: #000000; }
-    .speaker-wrap .text h3.speaker-name {
+    .organizer-wrap .text h3.organizer-name {
       font-size: 20px; }
-    .speaker-wrap .text .position {
+    .organizer-wrap .text .position {
       font-size: 18px;
       color: rgba(0, 0, 0, 0.4); }
-    .speaker-wrap .text .time {
+    .organizer-wrap .text .time {
       font-size: 14px;
       color: rgba(0, 0, 0, 0.5); }
-  .speaker-wrap:hover, .speaker-wrap:focus {
+  .organizer-wrap:hover, .organizer-wrap:focus {
     -webkit-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
     -moz-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
     box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07); }
 
-.speaker .text {
+.organizer .text {
   position: relative; }
-  .speaker .text:after {
+  .organizer .text:after {
     position: absolute;
     top: 0;
     right: 0;
@@ -9011,15 +9011,15 @@ h1, h2, h3, h4, h5,
     background: linear-gradient(45deg, #6827ff 100%, #847dff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6827ff', endColorstr='#847dff', GradientType=1 ); }
 
-.speaker h3 {
+.organizer h3 {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 0; }
 
-.speaker .position {
+.organizer .position {
   font-size: 15px; }
 
-.speaker .ftco-social {
+.organizer .ftco-social {
   margin: 0;
   padding: 0;
   opacity: 0;
@@ -9028,16 +9028,16 @@ h1, h2, h3, h4, h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease; }
-  .speaker .ftco-social li {
+  .organizer .ftco-social li {
     display: inline-block;
     padding: 0 5px; }
-    .speaker .ftco-social li a {
+    .organizer .ftco-social li a {
       color: #d64727;
       font-size: 18px; }
-      .speaker .ftco-social li a:hover, .speaker .ftco-social li a:focus {
+      .organizer .ftco-social li a:hover, .organizer .ftco-social li a:focus {
         color: #d64727; }
 
-.speaker:hover .ftco-social {
+.organizer:hover .ftco-social {
   opacity: 1; }
 
 .pricing-entry {
@@ -9175,8 +9175,9 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #232931;
-  padding: 7em 0;
+  background: #151617;
+  padding: 5em 0;
+  padding-bottom: 1em;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -9746,6 +9747,97 @@ textarea.form-control {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+/* shadoww */
+/* 63616147 */
+
+
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Navigation */
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 14px;
@@ -9759,6 +9851,14 @@ textarea.form-control {
 }
 
 
+/* index */
+@media (max-width: 767.98px){
+  .ftco-schedule .nav-pills .nav-link {
+      display: block;
+      margin-bottom: 5px;
+      color: #000;
+  }
+  }
 
 
 
@@ -9775,7 +9875,10 @@ font-weight: bold;
   background-color: #f3d06ff6;
   color: #000;
 }
-    
+/*contact  */
+#contact-add{
+  color:#d64727;
+}
 /* Blog */
 @media  screen and (max-width: 767.78px) {
   #mobRes {
@@ -9784,7 +9887,7 @@ font-weight: bold;
 }
 .blog-entry {
   border: 1px solid rgb(240 240 240 / 11%);
-  border-radius: 10px;
+  border-radius: 4px;
   box-shadow: 0 0 10px #dfdfdfe7;
   padding: 15px;
 }
@@ -9851,7 +9954,7 @@ color: #000;
 /* Schedule */
 
 @media (max-width: 991.78px){
-  .speaker-wrap .text {
+  .organizer-wrap .text {
     width: calc(100% - 0px);
     text-align: justify;
   }
@@ -9878,9 +9981,8 @@ color: #000;
 
 	.img-organizer{
 
-		border-radius: 20px;
+		border-radius: 5px;
 		padding: 50px;
-    /* filter: brightness(0.5); */
     opacity: 0.85;
 		
 			}
@@ -9889,10 +9991,10 @@ color: #000;
 			width: 30%;
 			margin: 10px auto;
       margin-top: 100px;
-			 padding: 10px;
-			  font-size: 16px;
-			  font-weight: bold;
-			  border-radius: 5px;
+			padding: 10px;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 5px;
 
     }
     @media  screen and (max-width: 575.78px) {
@@ -9998,6 +10100,7 @@ color: #fbb901;
 
 /* scientificCommittee */
 .table{
+  margin-top: 55px;
 	margin-bottom: 40px;
     text-align: center;
     border-radius: 5px;
@@ -10033,6 +10136,11 @@ td a:hover{
   }
 }
 
+#s-card{
+  width: 100%;
+  display: block;
+   float: right;
+}
 .card-shad{
   box-shadow: 0 0 10px #73737348;
 }
@@ -10130,6 +10238,7 @@ form p{
 .card-text{
     font-size: 13px;
 }
+
 .signup-icon{
     font-size: 11px;
 }
@@ -10318,6 +10427,53 @@ form p{
 }
 
 
+/* information */
+.information-btn{
+  background-color: #fbb901;
+  width: 25%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.information-btn a{
+  color: #fff;
+}
+
+@media (max-width: 395.78px){
+  .information-btn{
+    width: 70%;
+   
+  }
+  }
+
+  @media (min-width: 395.78px) and (max-width: 991.78px){
+    .information-btn{
+      width: 40%;
+     
+    }
+    }
+
+    .text-head{
+      font-size: 34px !important;
+       text-transform: capitalize !important;
+    }
+    
+    .text-topic{
+      font-size: 17px !important;
+       text-transform: capitalize !important;
+    }
+
+
+
+/* important-date */
+    #Extension{
+      background-color: yellow;
+      padding: 2px; 
+      color: red;
+    }
+
 
 
 
@@ -10337,9 +10493,19 @@ form p{
   font-weight: bold;
   margin-right: -5px;
 }
+
+
 .block-23 ul {
   padding: 0;
+  margin-right: 20px;
 }
+@media (max-width: 991.78px){
+  .block-23 ul {
+    padding: 0;
+    margin-right: 0;
+  }
+  }
+
 @media (min-width: 768px){
 .col-md {
   text-align: center;
@@ -10392,14 +10558,7 @@ form p{
   }
 
 
-/* index */
-@media (max-width: 767.98px){
-.ftco-schedule .nav-pills .nav-link {
-    display: block;
-    margin-bottom: 5px;
-    color: #000;
-}
-}
+
 
 
 
