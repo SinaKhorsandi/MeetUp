@@ -8791,7 +8791,8 @@ h1, h2, h3, h4, h5,
   color: rgba(255, 255, 255, 0.8); }
 
 .ftco-organizers {
-  background: #060708; }
+  background: #060708;
+ }
 
 .staff {
   width: 100%;
@@ -9158,7 +9159,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 5em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9745,99 +9746,6 @@ textarea.form-control {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-/*  */
-/*  */
-/*  */
-/*  */
-
-
-/* shadoww */
-/* 63616147 */
-
-
-/*  */
-/*  */
-/*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Navigation */
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 14px;
@@ -9849,18 +9757,61 @@ textarea.form-control {
   font-weight: 400;
   opacity: 1 !important;
 }
+.res-menu{
+  width: 35px;
+  height: 5px;
+  background-color: #d64727;
+  margin: 6px 0;
+}
+
+
+
+@media (min-width: 991.98px) and (max-width: 1200px){
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 13px;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-right: 0px;
+    padding-left: 15px;
+    color: #fff;
+    font-weight: 400;
+    opacity: 1 !important;
+}
+  }
+
+/* Header */
+@media (min-width: 1200px){
+#timer{
+margin-left: 810px;
+
+}
+}
+
 
 
 /* index */
-@media (max-width: 767.98px){
+@media (max-width: 768px){
   .ftco-schedule .nav-pills .nav-link {
       display: block;
       margin-bottom: 5px;
       color: #000;
   }
   }
+  @media (max-width: 768px){
+   .text-head{
+     margin-top: 15px;
+   }
+    }
 
+    @media (min-width: 768px) and (max-width: 992px){
+      .heading-section h2 {
+        font-size: 34px;
+        font-weight: 600;
+    }
+       }
 
+  
+  
 
 /* About */
 .about-btn{
@@ -9975,6 +9926,42 @@ color: #000;
   margin-top: 50px;
 }
 
+/* speaker */
+.btn-speaker{
+  background-color: #fbb901;
+  width: 30%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+@media  screen and (max-width: 575.78px) {
+  .btn-speaker {
+    width: 80%;
+  }
+}
+@media  screen and (min-width: 575.78px) and (max-width: 767.78px) {
+  .btn-speaker {
+    width: 45%;
+  }
+}
+@media  screen and (min-width:768px) and (max-width:991.98px) {
+  .btn-speaker {
+    width: 45%;
+  }
+}
+   
+
+		.btn-speaker:hover{
+			background-color: #f3d06ff6;
+
+		}
+		.btn-speaker a{
+			
+			color: #000;
+		}
 
 
 /* Organize */
