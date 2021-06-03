@@ -10255,7 +10255,7 @@ form p{
 @media  screen and (max-width: 525.78px)  {
   
 #first-card{
-  width: 100%; 
+  width: 97%; 
   display: block;
   float: right;
   margin-bottom: 20px;
@@ -10266,6 +10266,11 @@ form p{
    float: right;
    
 }
+#s-card{
+  width: 98%;
+  margin-right: 3px;
+}
+
 
  #first-card-body{
     margin-bottom:25px;
@@ -10395,17 +10400,21 @@ form p{
 #passExample{
   color: #d64727;
 }
-
+@media screen and (max-width: 525.78px){
+form label {
+    font-size: 10px;
+}
+}
 
 
 
 
 /* userLogin */
-@media  screen and (min-width: 525.78px) and (max-width: 768x) {
+@media  screen and (min-width: 525.78px) and (max-width: 767.78x) {
 
   .btn-login{
    font-size: 13px;
-   margin-bottom: 47px;
+   margin-bottom: 147px;
   }
   
   }
