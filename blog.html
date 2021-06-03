@@ -28,14 +28,20 @@
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
 	
+
 	<!-- navigation -->
 	  
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
     <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
-      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
+    <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="oi oi-menu"></span>
+       <div class="res-menu" ></div>
+      <div class="res-menu" ></div>
+      <div class="res-menu" ></div>
+      
       </button>
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+  
 
 
       <div class="collapse navbar-collapse" id="ftco-nav" style="direction: rtl;">
@@ -50,10 +56,10 @@
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <a class="dropdown-item" href="aboutUs.html">معرفی کنفرانس</a>
-				  <a class="dropdown-item" href="confrences.html">محور کنفرانس</a>
-				  <a class="dropdown-item" href="importantDate.html">تاریخ های مهم</a>
-				  <a class="dropdown-item" href="aboutSpconf.html">درباره موسسه برگزارکننده</a>
-				  <a class="dropdown-item" href="editArticle.html">راهنمای نگارش مقاله</a>
+        <a class="dropdown-item" href="confrences.html">محور کنفرانس</a>
+        <a class="dropdown-item" href="importantDate.html">تاریخ های مهم</a>
+        <a class="dropdown-item" href="aboutSpconf.html">درباره موسسه برگزارکننده</a>
+        <a class="dropdown-item" href="editArticle.html">راهنمای نگارش مقاله</a>
         </div>
     
       </li> 
@@ -125,12 +131,14 @@
 
 
 
-  <!-- content section -->
-  
   <section id="home-section" class="hero js-fullheight"style="direction: ltr;" >
     <h3 class="vr"> ششمین کنفرانس ملی <span style="margin-right: 50px;"> علوم انسانی و مطالعات مدیریت</span></h3>
-    
-  
+    <div id="timer" class="text-center" >
+      <div class="time" >10</div>
+			<div class="time" >20</div>
+			<div class="time" >30</div>
+			<div class="time" >40</div>
+    </div>
    
     <div class="home-slider owl-carousel js-fullheight">
       <div class="slider-item js-fullheight">
@@ -164,7 +172,23 @@
           </div>
         </div>
         <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
+          <div class="col-md-4 d-flex ftco-animate blog-box">
+          	<div class="blog-entry justify-content-end">
+              <a href="single.html" class="block-20" style="background-image: url('images/blog/علوم\ پزشکی\ شیراز.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+              	<div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+	                	<span class="mr-2">23 دی 1400</span>
+	                	
+	                </p>
+                </div>
+                <h3 class="heading text-justify"><a href="single.html">پیوستن دانشگاه علوم پزشکی شیراز به کنفرانس ملی علوم انسانی و مطالعات مدیریت به عنوان همکار علمی</a></h3>
+                <p class="text-justify blogExplain">دانشگاه علوم پزشکی شیراز به جمع حامیان کنفرانس ملی علوم انسانی و مطالعات مدیریت پیوست.</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a href="single.html" class="block-20" style="background-image: url('images/r_60_201209095308.jpg');">
               </a>
@@ -180,7 +204,7 @@
                   </p>
               </div>
             </div>
-          </div>
+          </div> -->
 
 
 
@@ -286,7 +310,7 @@
 	                </p>
                 </div>
                 <h3 class="heading text-justify"><a href="single.html">نمایه سازی مقالات در ISC</a></h3><br>
-                <p class="text-justify blogExplain">مقالات پذیرفته شده در کنفرانس به صورت رایگان در ISC نمایه خواهد شد.</p>
+                <p class="text-justify blogExplain">از این پس مقالات پذیرفته شده در کنفرانس به صورت رایگان در ISC نمایه خواهد شد.</p>
               </div>
             </div>
           </div>
@@ -329,7 +353,7 @@
 	                	
 	                </p>
                 </div>
-                <h3 class="heading text-justify"><a href="single.html">امکان دریافت بسته کنفرانس بدون حضور فیزیکی</a></h3><br>
+                <h3 class="heading text-justify"><a href="single.html"> امکان دریافت بسته کنفرانس بدون حضور فیزیکی</a></h3><br>
                 <p class="text-justify blogExplain">امکان دریافت بسته کنفرانس بدون حضور فیزیکی در محل فراهم شد...</p>
               </div>
             </div>
@@ -526,9 +550,9 @@
             <h2 class="ftco-heading-2  ">آدرس دبیرخانه</h2>
             <div class="block-23 mb-3 " >
               <ul class="list-unstyled">
-                <li><span class="icon icon-map-marker text-left"></span><span>آدرس دبیرخانه تهران: آیت شمالی - خیابان فرجام </span></li>
-                <li><span class="icon icon-phone "></span><span>تلفن: 77490953-021</span></li>
-                <li><span class="icon icon-envelope"></span><span >ایمیل دبیرخانه: info@spconf.ir</span></li>
+                <li><span>آدرس دبیرخانه تهران: آیت شمالی - خیابان فرجام </span></li>
+                <li><span>تلفن: 77490953-021</span></li>
+                <li><span >ایمیل دبیرخانه: info@spconf.ir</span></li>
               </ul>
             </div>
           </div>
