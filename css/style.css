@@ -9300,7 +9300,11 @@ textarea.form-control {
   font-weight: 600; }
   .heading-section h2 span {
     font-weight: 400; }
-  @media (max-width: 767.98px) {
+  @media (max-width: 575.76px) {
+      .heading-section h2 {
+        font-size: 24px; } }
+  
+  @media (min-width: 575.98px) and (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
 
@@ -9932,9 +9936,12 @@ color: #000;
     text-align: justify;
   }
   }
-
-
-
+ 
+  @media (max-width: 575px){
+    .schedule-head{
+  font-size: 19px !important;
+    }
+    }
   /* RefreeCommittee */
   .figure{
     margin: 15px 10px;
@@ -10647,7 +10654,17 @@ margin: 20px;
 }
 }
 
-@media (max-width: 768px){
+@media (max-width: 576px){
+  .pl-lg-5, .px-lg-5 {
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+      border: 1px solid #7777774f;
+      box-shadow: 0 0 5px;
+      margin:10px 14px;
+     
+  }
+  }
+@media (min-width: 576px) and (max-width: 768px){
   .pl-lg-5, .px-lg-5 {
       padding-right: 3rem !important;
       padding-left: 3rem !important;
@@ -10706,6 +10723,17 @@ margin: 20px;
       font-size: 14px;
   }
    }
+
+
+
+
+
+
+
+
+
+
+/* userLogin */
 
 
 
