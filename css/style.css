@@ -9792,14 +9792,24 @@ textarea.form-control {
   }
 
 /* Header */
-@media (min-width: 1200px){
+/* @media (min-width: 1200px) and (max-width: 1259.78px){
 #timer{
-margin-left: 810px;
+margin-left: 750px;
 
 }
 }
-
-
+@media (min-width: 1259.78px) and (max-width: 1300.78px){
+  #timer{
+  margin-left: 810px;
+  
+  }
+  }
+  @media (min-width: 1300.78px) {
+    #timer{
+    margin-left: 890px;
+    
+    }
+    } */
 
 /* index */
 @media (max-width: 768px){
@@ -10552,7 +10562,7 @@ form label {
   margin-right: 15px;
   text-align: justify !important;
   font-size: 13px !important;
-  color: rgba(0, 0, 0, 0.699);
+  color: rgba(0, 0, 0, 0.575);
   
 }
 #presentation-icon{
