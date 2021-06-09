@@ -9792,7 +9792,22 @@ textarea.form-control {
   }
 
 /* Header */
-/* @media (min-width: 1200px) and (max-width: 1259.78px){
+.header-text{
+  font-size: 45px !important;
+}
+@media (max-width:575px){
+  .header-text{
+    font-size: 30px !important;
+    
+    }
+    .header-text span{
+      font-size: 30px !important;
+      
+      }
+  }
+  
+
+@media (min-width: 1200px) and (max-width: 1259.78px){
 #timer{
 margin-left: 750px;
 
@@ -9804,12 +9819,18 @@ margin-left: 750px;
   
   }
   }
-  @media (min-width: 1300.78px) {
+  @media (min-width: 1300.78px) and (max-width: 1350px){
     #timer{
-    margin-left: 890px;
+    margin-left: 810px;
     
     }
-    } */
+    }
+    @media (min-width: 1350px){
+      #timer{
+      margin-left: 850px;
+      
+      }
+      }
 
 /* index */
 @media (max-width: 768px){
