@@ -9813,21 +9813,21 @@ margin-left: 750px;
 
 }
 }
-@media (min-width: 1259.78px) and (max-width: 1300.78px){
+@media (min-width: 1259.78px) and (max-width: 1300px){
   #timer{
   margin-left: 810px;
   
   }
   }
-  @media (min-width: 1300.78px) and (max-width: 1350px){
+  @media (min-width: 1300.78px) and (max-width: 1360px){
     #timer{
-    margin-left: 810px;
+    margin-left: 820px;
     
     }
     }
-    @media (min-width: 1350px){
+    @media (min-width: 1360.78px){
       #timer{
-      margin-left: 850px;
+      margin-left: 825px;
       
       }
       }
