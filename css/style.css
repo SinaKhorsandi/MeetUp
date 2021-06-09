@@ -9792,19 +9792,7 @@ textarea.form-control {
   }
 
 /* Header */
-.header-text{
-  font-size: 45px !important;
-}
-@media (max-width:575px){
-  .header-text{
-    font-size: 30px !important;
-    
-    }
-    .header-text span{
-      font-size: 30px !important;
-      
-      }
-  }
+
   
 
 @media (min-width: 1200px) and (max-width: 1259.78px){
@@ -10768,3 +10756,25 @@ margin: 20px;
 
 
 
+
+
+
+
+
+
+
+
+
+.header-text{
+  font-size: 25px !important;
+}
+@media (max-width:400px){
+  .header-text{
+    font-size: 25px !important;
+    
+    }
+    .header-text span{
+      font-size: 25px !important;
+      
+      }
+  }
