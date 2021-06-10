@@ -9793,7 +9793,6 @@ textarea.form-control {
 
 /* Header */
 
-  
 
 @media (min-width: 1200px) and (max-width: 1259.78px){
 #timer{
@@ -9813,12 +9812,53 @@ margin-left: 750px;
     
     }
     }
-    @media (min-width: 1360.78px){
+    @media (min-width: 1360.78px) and (max-width: 1375.78px){
       #timer{
       margin-left: 825px;
       
       }
       }
+      @media (min-width: 1375.78px) {
+        #timer{
+        margin-left: 850px;
+        
+        }
+        }
+
+     @media (max-width:575px){
+   
+          .owl-carousel.home-slider {
+            position: relative;
+            height: 500px;
+            z-index: 0; }
+          .owl-carousel.home-slider .slider-item .slider-text {
+            height: 500px;
+            z-index: 0; }
+            .owl-carousel.home-slider .slider-item .slider-text .one-third {
+              width: 100%;
+              position: relative;
+              height: 500px;
+              z-index: -1;
+              -webkit-box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16);
+              -moz-box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16);
+              box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16); }
+            }
+
+            #header-text{
+              font-size: 45px !important;
+            }
+            @media (max-width:575px){
+              #header-text{
+                font-size: 35px !important;
+                
+                }
+               #header-text span{
+                  font-size: 35px !important;
+                  
+                  }
+              }
+            
+            
 
 /* index */
 @media (max-width: 768px){
@@ -10752,7 +10792,6 @@ margin: 20px;
 
 
 
-/* userLogin */
 
 
 
@@ -10765,16 +10804,8 @@ margin: 20px;
 
 
 
-.header-text{
-  font-size: 25px !important;
-}
-@media (max-width:400px){
-  .header-text{
-    font-size: 25px !important;
-    
-    }
-    .header-text span{
-      font-size: 25px !important;
-      
-      }
-  }
+
+
+
+
+
