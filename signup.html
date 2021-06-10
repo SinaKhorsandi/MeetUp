@@ -256,7 +256,7 @@
                               </div>
                               <div class="col ">
                                 <span id="req">*</span><label for="">نام خانوادگی</label>
-                                <input type="text" required class="form-control" >
+                                <input type="text" required class="form-control" id="sec-input">
                               </div>
                             </div>
 
@@ -268,7 +268,7 @@
                                 </div>
                                 <div class="col ">
                                   <label for="">نام خانوادگی لاتین</label>
-                                  <input type="text" class="form-control" >
+                                  <input type="text" class="form-control" id="sec-input" >
                                 </div>
                               </div>
 
@@ -277,14 +277,14 @@
                             <div class="row">
                                 <div class="col my-1 ">
                                     <span id="req">*</span><label for="">جنسیت</label>
-                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
+                                    <select class="custom-select mr-sm-2" required>
                                       <option selected value="male">مرد</option>
                                       <option value="female">زن</option>
                                     </select>
                                 </div> 
                                 <div class="col my-1 ">
                                     <span id="req">*</span><label for=""> مدرک تحصیلی</label>
-                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
+                                    <select class="custom-select mr-sm-2"  id="sec-input" required>
                                       <option selected >انتخاب کنید ...</option>
                                       <option value="1">کاردانی</option>
                                       <option value="2">دانشجوی کارشناسی</option>
@@ -307,7 +307,7 @@
                                 </div>
                                 <div class="col ">
                                   <label for=""> موسسه</label>
-                                  <input type="text" class="form-control" >
+                                  <input type="text" class="form-control" id="sec-input" >
                                 </div>
                               </div>
 
@@ -320,7 +320,7 @@
                                 </div>
                                 <div class="col ">
                                     <span id="req">*</span><label for="">کدپستی</label>
-                                  <input type="text" class="form-control" required>
+                                  <input type="text" class="form-control"  id="sec-input" required>
                                 </div>
                             </div>
 
@@ -330,33 +330,17 @@
 
                             <div class="row">
                                 <div class="col my-1 ">
-                                    <span id="req">*</span> <label for="">استان</label>
-                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
-                                      <option selected >انتخاب کنید ...</option>
-                                      <option value="1">کاردانی</option>
-                                      <option value="2">دانشجوی کارشناسی</option>
-                                      <option value="3">کارشناسی</option>
-                                      <option value="4">دانشچوی کارشناسی ارشد</option>
-                                      <option value="5">کارشناسی ارشد</option>
-                                      <option value="6">دانشجوی دکتری</option>
-                                      <option value="7">دکتری</option>
-                                      <option value="8">سایر ...</option>
-                                    </select>
+                                    <span id="req">*</span> <label for="">استان و شهر</label>
+                                    <div class="ir-select">
+                                      <select class="custom-select mr-sm-2 ir-province" id="state"  required></select>
+                                      <select class="custom-select mr-sm-2 ir-city city" id="city" required>
+                                      
+                                        <option value=""> شهر ...</option>
+                                      
+                                      </select>
+                                  </div>
                                 </div> 
-                                <div class="col my-1 ">
-                                    <span id="req">*</span><label for="">شهر</label>
-                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect"required>
-                                      <option selected >انتخاب کنید ...</option>
-                                      <option value="1">کاردانی</option>
-                                      <option value="2">دانشجوی کارشناسی</option>
-                                      <option value="3">کارشناسی</option>
-                                      <option value="4">دانشچوی کارشناسی ارشد</option>
-                                      <option value="5">کارشناسی ارشد</option>
-                                      <option value="6">دانشجوی دکتری</option>
-                                      <option value="7">دکتری</option>
-                                      <option value="8">سایر ...</option>
-                                    </select>
-                                </div> 
+                            
                             </div>
 
 
@@ -369,7 +353,7 @@
                                 </div>
                                 <div class="col ">
                                     <span id="req">*</span> <label for="">موبایل</label>
-                                  <input type="tel" class="form-control" required>
+                                  <input type="tel" class="form-control"  id="sec-input" required>
                                 </div>
                             </div>
 
@@ -383,7 +367,7 @@
                                 </div>
                                 <div class="col ">
                                   <label for="">تخصص</label>
-                                  <input type="text" class="form-control" >
+                                  <input type="text" class="form-control"  id="sec-input" >
                                 </div>
                             </div>
 
@@ -392,7 +376,7 @@
                                 <div class="col text-center">
                                     <span id="req">*</span><label for="">آدرس</label><br>
                                     <div class="form-group">
-                                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                      <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -400,7 +384,7 @@
                             <div class="row">
                                 <div class="col ">
                                     <span id="req">*</span><label for="">پست الکترونیکی</label>
-                                  <input type="email" class="form-control" required>
+                                  <input type="email" class="form-control"  required>
                                 </div>
                                 <div class="col ">
                                   <p>
@@ -416,7 +400,7 @@
                                 </div>
                                 <div class="col text-center">
                                     <span id="req">*</span><label for="">تکرار رمز عبور</label>
-                                  <input type="password" class="form-control" required>
+                                  <input type="password" class="form-control"  id="sec-input" required>
                                 </div>
                             </div>
                             <br>
@@ -506,6 +490,8 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+  <!-- ir-city-select.js -->
+<script src="https://github.com/KayvanMazaheri/ir-city-select/releases/download/v0.2.0/ir-city-select.min.js"></script>
     
   </body>
 </html>

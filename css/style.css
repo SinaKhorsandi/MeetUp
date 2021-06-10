@@ -9135,7 +9135,7 @@ h1, h2, h3, h4, h5,
         display: none; } }
 
 .form-control {
-  height: 52px !important;
+  height: 40px !important;
   background: #fff !important;
   color: #000000 !important;
   font-size: 18px;
@@ -10465,8 +10465,61 @@ form p{
 }
 
 
+#state{
+  width: 48%;
+  display: inline;
+  float: right;
+}
+#city{
+  width: 47%;
+  display: inline;
+  float: left;
+  margin-right: 15px;
+}
+@media  (max-width: 576px){
+  #city{
+    width: 44.5%;
+    margin-right: 21px;
 
+  }
+  #state{
+    width: 46%;
+  }
+  }
+@media  (min-width: 576px) and (max-width: 768px){
+  #city{
+    width: 44.5%;
+    margin-right: 21px;
 
+  }
+  #state{
+    width: 46%;
+  }
+  }
+@media  (min-width: 768px) and (max-width: 992px){
+  #city{
+    width: 44.25%;
+    margin-right: 20px;
+  }
+  #state{
+    width: 45%;
+  }
+  }
+
+  
+@media  (min-width: 992px) and (max-width: 1200px){
+  #city{
+    width: 46%;
+  }
+  }
+  
+#sec-input{
+  width: 98%;
+}
+#FormControlTextarea{
+  width: 99%;
+
+}
 /* RefLogin */
 #userLogin-card-body{
   margin-bottom: 37px;
