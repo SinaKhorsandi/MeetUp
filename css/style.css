@@ -8298,19 +8298,19 @@ h1, h2, h3, h4, h5,
       padding: 0;
       float: right;
       padding: 10px 0; }
-      @media (max-width: 576px)  {
+      @media (max-width: 575px)  {
         .hero #timer .time {
-          padding: 0 ; } }
+          padding:1em 0 ; } }
       @media (min-width: 575px) and (max-width : 768px) {
         .hero #timer .time {
-          padding: 1.3em 0; } }
+          padding: 0.5em 0; } }
       @media (min-width: 768px) {
         .hero #timer .time {
            padding: 1.3em 0; } }    
      
       @media (max-width: 575.98px) {
          .hero #timer .time {
-           width: 50%; } }   
+           width: 25%; } }   
       @media (min-width: 575.98px) and (max-width: 767.98px) {
           .hero #timer .time {
             width: 25%; } }      
@@ -9851,15 +9851,15 @@ margin-left: 750px;
    
           .owl-carousel.home-slider {
             position: relative;
-            height: 400px;
+            height: 370px;
             z-index: 0; }
           .owl-carousel.home-slider .slider-item .slider-text {
-            height: 400px;
+            height: 370px;
             z-index: 0; }
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
               width: 100%;
               position: relative;
-              height: 400px;
+              height: 370px;
               z-index: -1;
               -webkit-box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16);
               -moz-box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16);
@@ -9868,15 +9868,15 @@ margin-left: 750px;
 @media (min-width:575px) and (max-width:768px){
   .owl-carousel.home-slider {
     position: relative;
-    height: 330px;
+    height: 300px;
     z-index: 0; }
   .owl-carousel.home-slider .slider-item .slider-text {
-    height: 330px;
+    height: 300px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item .slider-text .one-third {
       width: 100%;
       position: relative;
-      height: 330px;
+      height: 300px;
       z-index: -1;
       -webkit-box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16);
       -moz-box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16);
