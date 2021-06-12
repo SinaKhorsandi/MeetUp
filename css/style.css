@@ -8049,6 +8049,15 @@ h1, h2, h3, h4, h5,
     width: 1110px;
     margin: 0 auto;
     padding: 0; }
+    @media (min-width: 575px) and (max-width: 768px) {
+      .ftco-navbar-light .container {
+        width: 1110px;
+        margin: -7px auto;
+        padding: 0; }
+       }
+
+
+   
   .ftco-navbar-light .navbar-brand {
     color: #fff;
     padding-top: .7rem;
@@ -8058,6 +8067,10 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
         color: #fff; } }
+    @media (min-width: 575px) and (max-width: 768px) {
+      .ftco-navbar-light .navbar-brand img {
+        height: 45px !important; }
+           }    
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 20px;
@@ -9872,15 +9885,15 @@ margin-left: 750px;
 @media (min-width:575px) and (max-width:768px){
   .owl-carousel.home-slider {
     position: relative;
-    height: 250px;
+    height: 225px;
     z-index: 0; }
   .owl-carousel.home-slider .slider-item .slider-text {
-    height: 250px;
+    height: 225px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item .slider-text .one-third {
       width: 100%;
       position: relative;
-      height: 250px;
+      height: 225px;
       z-index: -1;
       -webkit-box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16);
       -moz-box-shadow: -20px -20px 69px -27px rgba(0, 0, 0, 0.16);
@@ -9903,6 +9916,7 @@ font-size: 45px !important;
 @media (min-width:575px) and (max-width:768px){
   #header-text{
   font-size: 20px !important;
+  
                 
   }
   #header-text span{
@@ -9923,6 +9937,8 @@ font-size: 15px ;
   .btn-mob-res{
     padding: 12px !important; 
 font-size: 12px ;
+margin-top: -25px !important;
+
 
 }          
 }
